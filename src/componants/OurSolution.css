@@ -1,0 +1,114 @@
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.processService {
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #312a57;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    height: 65vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-button1 {
+    display: inline-block;
+    background-color: #ffe3d2;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.center1 {
+    text-align: center;
+}
+
+.headProcess {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.step {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
+    opacity: 0;
+    animation: slideUp 0.8s ease-out forwards;
+}
+
+.step:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.step:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.step:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.step:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.iconUpper {
+    background-color: rgba(241, 158, 94, 0.5);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+}
+
+.iconBack {
+    background-color: #ff6f00;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-icon {
+    color: #F6F6FF;
+    font-size: 25px;
+}
+
+.step h4 {
+    color: #F6F6FF;
+    margin-top: 10px;
+}
+
+.step p {
+    font-size: 12px;
+    color: rgb(177, 169, 169);
+}

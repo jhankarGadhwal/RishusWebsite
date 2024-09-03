@@ -1,0 +1,20 @@
+
+.readMore {
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(177, 169, 169);
+    background-color: #F6F6FF;
+  }
+  
+  .readMore:hover {
+    color: #ff6f00;
+  }
+
+  .leftAchievement{
+    margin-left: 8%;
+  }
+  .para2{
+  font-size: 14px;
+    color: rgb(177, 169, 169);
+   
+  }

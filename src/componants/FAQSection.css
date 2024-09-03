@@ -1,0 +1,126 @@
+.background {
+    position: relative;
+    margin: 50px auto;
+    background-image: url('../image/backgroundimage.jpg') !important;
+    background-color: #100d1f;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 80vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.faq-section {
+    background-color: #10102F;
+    padding: 20px;
+    width: 50%;
+}
+
+.button-text {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.faq-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+.faq {
+    border-bottom: 1px solid #3c3f48;
+}
+
+.faq-question {
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.faq-question.active {
+    background-color: #e0e0e0;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #10102F;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.faq-answer.show {
+    max-height: 600px;
+}
+
+.faq-answer p {
+    margin: 20px 0;
+}
+
+.image {
+    width: 30%;
+    margin-right: 120px;
+}
+
+.image .back {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.faq-answer.show {
+    display: block;
+}
+
+.faq-question.active .arrow.down {
+    display: none;
+}
+
+.faq-question.active .arrow.up {
+    display: inline;
+}
+
+.arrow {
+    font-size: 12px;
+    transition: transform 0.3s;
+}
+
+.arrow.down {
+    transform: rotate(0deg);
+}
+
+.faq-question .arrow {
+    font-size: 14px;
+    /* Slightly increased for better visibility */
+    margin-left: 10px;
+    /* Space between question text and arrow */
+}

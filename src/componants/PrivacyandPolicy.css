@@ -1,0 +1,45 @@
+.backgroundService1 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    /* Space between left and right elements */
+    padding: 70px;
+    background-color: #594d9c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Shadow for a slight 3D effect */
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-left: 12%;
+}
+
+.heading {
+    margin: 0;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.MybackgroundPara {
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.right-box {
+    display: flex;
+    margin-right: 20%;
+}
+
+.privacyHeading{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+

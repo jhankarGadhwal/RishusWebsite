@@ -1,0 +1,43 @@
+.blogCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    /* Three cards in a row with some spacing */
+    text-align: left;
+    margin: 60px;
+  
+  }
+  
+  .blogimage {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .card-content {
+    padding: 20px;
+  
+  }
+  
+  .card-heading1 {
+    margin: 10px 0 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .card-content:hover {
+    color: orange;
+    /* Change color to orange on hover */
+  }
+  
+  .card-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .colored-image {
+    background-color: #343434;
+  }

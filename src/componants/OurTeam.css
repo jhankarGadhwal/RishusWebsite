@@ -1,0 +1,52 @@
+.our-team-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+.teamSection {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 20%;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.teamSection:hover {
+  transform: translateY(-10px);
+}
+
+.our-cardImage {
+  width: 120px;
+  height: 120px;
+  border-bottom: 1px solid #eee;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.cardContent a {
+  color: #a1adb4;
+}
+
+.cardName {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.cardName:hover {
+  color: #1271a5;
+}
+
+.cardPosition {
+  font-size: 12px;
+  color: #777;
+}
+
+
+.cardContent a:hover {
+  color: #005582;
+}

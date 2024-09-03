@@ -1,0 +1,29 @@
+/* Service section styles */
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #f9f9f9;
+    /* Add a background color if needed */
+  }
+  
+  .service-button {
+    display: inline-block;
+    background-color: #ffe3d2;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto 10px;
+    animation: slideTop 1s ease-out;
+  }
+  
+  .center {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .servicehead {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }

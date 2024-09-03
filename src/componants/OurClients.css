@@ -1,0 +1,48 @@
+.clientsection1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 130px;
+  text-align: center;
+  margin-right: 130px;
+}
+
+.clientsection1 img {
+  height: 40px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.clientsection1 img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+
+.clientsection2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+
+.clientsection1 img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+
+
+.clientsection2 img {
+  height: 120px;
+  margin: 0 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.clientsection2 img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}

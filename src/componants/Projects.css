@@ -1,0 +1,69 @@
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-grid img {
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.backgroundProject1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    background-color: black;
+    background-image: url('../image/teamNeed.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundProject1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1
+}
+
+.backgroundProject1>* {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.myBack {
+    color: white;
+}
+
+.project-button1 {
+    background-color: #ff6f00;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+.project-button-link {
+    text-decoration: none; /* Remove underline from the link */
+}
